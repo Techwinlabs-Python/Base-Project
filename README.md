@@ -33,3 +33,12 @@ Bring services down:
 
 Open a bash session in a running container:
 `docker exec -it <container ID> /bin/bash`
+
+# Django Commands
+*Note first start Docker on your system*
+
+1. Create Project
+`docker-compose run web django-admin startproject`
+
+2. Create app
+`docker-compose run web django-admin startapp appname`
